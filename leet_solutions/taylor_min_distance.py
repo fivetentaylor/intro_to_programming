@@ -1,5 +1,6 @@
 from typing import List
 
+
 def minTimeToVisitAllPoints(points: List[List[int]]) -> int:
     dist = 0
     for (x0, y0), (x1, y1) in zip(points, points[1:]):
