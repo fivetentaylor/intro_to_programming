@@ -1,3 +1,3 @@
 # Intro To Programming
 
-Random examples for my class about programming
+Captures examples and students solutions throughout the course
