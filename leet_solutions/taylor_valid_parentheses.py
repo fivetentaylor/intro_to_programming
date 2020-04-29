@@ -1,13 +1,14 @@
 pairs = {
-    ')': '(',
-    ']': '[',
-    '}': '{',
+    ")": "(",
+    "]": "[",
+    "}": "{",
 }
+
 
 def isValid(s: str) -> bool:
     stack = []
     for c in s:
-        if c in '({[':
+        if c in "({[":
             stack.append(c)
             continue
 
