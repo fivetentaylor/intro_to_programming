@@ -2,9 +2,24 @@
 
 Jeff and Taylor on a journey of self discovery
 
-## Git Steps
+## Git Tutorial
 
-If I'm just pushing some new code
+```
+git status
+```
+
+```
+git commit
+```
+
+```
+git branch
+```
+
+```
+git checkout master
+```
+
 
 ```
 git checkout -b my_cool_new_branch # create a branch
