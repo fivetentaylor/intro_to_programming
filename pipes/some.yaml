@@ -1,0 +1,13 @@
+a list:
+- 1
+- 2
+- 3
+- 4
+hello: world
+morgan: how is this
+taylor:
+  jeff:
+  - some
+  - list
+  - values
+cristi: ['another', 'list']
