@@ -1,5 +1,6 @@
 from typing import List
 
+
 def isOneBitCharacter(bits: List[int]) -> bool:
     if len(bits) == 1:
         return True
