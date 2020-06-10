@@ -1,4 +1,3 @@
-import pudb
 from taylor_generate_parentheses import generate_parentheses
 
 # [1 2 3 2 1 0]
@@ -12,11 +11,9 @@ from taylor_generate_parentheses import generate_parentheses
 
 
 def test_generate_parentheses():
-    pudb.set_trace()
-    parens = list(generate_parentheses(0))
-    parens = list(generate_parentheses(1))
-    parens = list(generate_parentheses(2))
-    parens = list(generate_parentheses(3))
-    parens = list(generate_parentheses(4))
-    parens = list(generate_parentheses(5))
-    x = 0
+    assert list(generate_parentheses(0)) == []
+    assert list(generate_parentheses(1)) == ['()']
+    assert '(())' in set(generate_parentheses(2))
+    assert '((()))' in set(generate_parentheses(3))
+    assert '(((())))' in set(generate_parentheses(4))
+    assert '((((()))))' in set(generate_parentheses(5))
